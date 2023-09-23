@@ -12,12 +12,13 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+API_ID = config("27825018", default=None, cast=int)
+API_HASH = config("1f15c46306107d21be901af5c8baf9bc", default=None)
+BOT_TOKEN = config("6640491258:AAH3e0xTJr6BM9cadCtviWWGebVSnM9Q-YI", default=None)
+SESSION = config("BQCiJ-vsGUF4CI_hwgCsr_Sp-aQWeCz6T3EZ7a2nCzj1XhopBHoSGGgmuYwXLuHF_XjmhDOmJq77HKO6WPFADc8eKpg13C8GtyDCNln23hHQToO51YYhbqDXWTsopZSXJ1RsAndi_nRQJQM-HKM1zU8biGgjCTL3YglcLpkRz2n16AeKav-3-YfC5DDB7NXJgj_axPeeU45-OHzrIoIQ7HwP_yNtWgWel5R1FzkKiCoooMXSUCR2oWpJBSBllXw9wWCcMOCo0tmw9oQlQIAw61-2jYCXmTa0eDtDQxEUfIgMsj-Twa4dVPSaQD5wClDhWSWoybc8M1MbSXFVg9ZwNAmHAAAAAVY5hCoA 
+", default=None)
+FORCESUB = config("meracourse123", "" default=None)
+AUTH = config("5741577258", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
